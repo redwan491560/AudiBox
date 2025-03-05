@@ -4,6 +4,24 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 class Routes {
+
+
+    @Serializable
+    object Splash
+
+    @Serializable
+    object Verification
+
+    @Serializable
+    object SignUp
+
+    @Serializable
+    object SignIn
+
+    @Serializable
+    object Landing
+
+
     @Serializable
     object Home
 
